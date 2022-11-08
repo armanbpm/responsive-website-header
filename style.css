@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65), rgba(9,0,77,0.65)), url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn img{
+    width: 20px;
+    margin-right: 5px;
+} 
+.content{
+    margin-top: 14%;
+    color: #fff;
+    max-width: 620px;    
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;    
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.content form .btn{
+    font-size: 15px;
+    padding: 10px 30px;
+}
+/*-----------------------Responsive CSS Section-------------*/
+
+@media screen and (max-width: 600px){
+    
+        .container{
+            min-height: 100vh;
+            background-image: linear-gradient(rgba(9,0,77,0.65), rgba(9,0,77,0.65)), url(images/background.png);
+            background-size: cover;  
+        }
+        nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 3px 0;
+        }
+        .logo{
+            width: 80px;
+            cursor: pointer;
+        }
+        nav ul{
+            list-style: none;
+            width: 100%;
+            text-align: center;
+            padding-right: 5px;
+        }
+        nav ul li{
+            display: block;
+            margin: 10px 10px;
+        }
+        nav ul li a{
+            color: #fff;
+            text-decoration: none;
+        }
+        .btn{
+            display: flex;
+            align-items: center;
+            padding: 5px 7px;
+            border: 0;
+            outline: 0;
+            border-radius: 3px;
+            background: #f5168d;
+            color: #fff;
+            font-weight: 200;
+            cursor: pointer;
+        }
+        .btn img{
+            width: 10px;
+            margin-right: 4px;
+        } 
+        .content{
+            margin-top: 20%;
+            color: #fff;
+            max-width: 300px;    
+        }
+        .content h1{
+            font-size: 25px;
+            font-weight: 250;
+            line-height: 40px;
+            margin-bottom: 12px;    
+        }
+        .content p{
+            font-size: small;
+        }
+        .content form{
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border-radius: 3px;
+            padding: 5px;
+            margin-top: 15px;
+        }
+        .content form input{
+            border: 0;
+            outline: 0;
+            width: 100%;
+            font-size: 8px;
+            padding-left: 5px;
+        }
+        .content form .btn{
+            font-size: 7px;
+            padding: 5px 15px;
+        }
+    }
+  
